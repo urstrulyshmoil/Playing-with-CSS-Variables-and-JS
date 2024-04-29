@@ -1,0 +1,41 @@
+:root{
+    --base:#ffc600;
+    --spacing:10px;
+    --blur:0px;
+
+}
+ img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+
+ }
+ 
+
+ h2{
+    color:white;
+    font-size: 30px;
+    text-decoration: underline;
+ }
+
+ body{
+    height: 100vh;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color:rgba(31, 31, 66, 0.886);
+    text-align: center;
+ }
+
+ label {
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+ }
+
+
+.abc{
+    color: red;
+}
